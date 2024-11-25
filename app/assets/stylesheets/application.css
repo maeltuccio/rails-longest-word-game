@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+ .letters-container {
+  display: flex; /* Aligne les lettres sur une seule ligne */
+  gap: 10px; /* Espace entre chaque lettre */
+  justify-content: center; /* Centre les lettres horizontalement */
+  margin-top: 20px; /* Ajoute un peu d'espace au-dessus */
+}
+
+.letter {
+  background-color: blue; /* Fond bleu */
+  color: white; /* Texte blanc */
+  padding: 10px; /* Ajoute de l'espace autour de la lettre */
+  border-radius: 5px; /* Coins arrondis */
+  font-size: 20px; /* Agrandit le texte */
+  text-align: center; /* Centre la lettre dans le conteneur */
+}
